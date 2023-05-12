@@ -1,0 +1,114 @@
+//Código melhorado com técnicas de código limpo. As variáveis foram alteradas para que fiquem mais claras, sem abrevisção. No mais, o código está limpo e não necessita de mais alterações.
+
+package modelo;
+
+public class Estagiario {
+    private int idCurso;
+    private String cpf;
+    private String nome;
+    private String sexo;
+    private String dataNascimento;
+    private String telefoneCelular;
+    private String telefoneCasa;
+    private String cep;
+    private String endereco;
+    private String bairro;
+    private String cidade;
+    private String curso;
+    private String dataIngresso;
+
+    public Estagiario(int idCurso, String cpf, String nome, String sexo, String dataNascimento, String telefoneCelular,
+            String telefoneCasa, String cep, String endereco, String bairro, String cidade, String curso,
+            String dataIngresso) {
+        this.idCurso = idCurso;
+        this.cpf = cpf;
+        this.nome = nome;
+        this.sexo = sexo;
+        this.dataNascimento = dataNascimento;
+        this.telefoneCelular = telefoneCelular;
+        this.telefoneCasa = telefoneCasa;
+        this.cep = cep;
+        this.endereco = endereco;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.curso = curso;
+        this.dataIngresso = dataIngresso;
+    }
+
+    // Construtor padrão
+    public Estagiario() {}
+
+    public int getIdCurso() {
+        return idCurso;
+    }
+
+    public void setIdCurso(int idCurso) {
+        this.idCurso = idCurso;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(String dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+    public String getTelefoneCelular() {
+        return telefoneCelular;
+    }
+
+    public void setTelefoneCelular(String telefoneCelular) {
+        this.telefoneCelular = telefoneCelular;
+    }
+
+    public String getTelefoneCasa() {
+        return telefoneCasa;
+    }
+
+    public void setTelefoneCasa(String telefoneCasa) {
+        this.telefoneCasa = telefoneCasa;
+    }
+
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getBairro() {
+        return bairro
